@@ -15,7 +15,7 @@ public:
 	void printPoint();
 };
 template<class Type>
-void Point::printPoint()
+void Point<Type>::printPoint()
 {
 	cout << "x: " << x;
 	cout << "y: " << y;
